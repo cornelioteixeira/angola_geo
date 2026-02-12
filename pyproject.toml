@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "angola-geo"
+version = "0.2.0"
+description = "Biblioteca Python completa para divisões administrativas de Angola (províncias, municípios, comunas) de acordo com a Lei n.º 14/24"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Cornelio Teixeira", email = "your.email@example.com"}
+]
+keywords = [
+    "angola",
+    "geografia",
+    "geolocation",
+    "divisoes-administrativas",
+    "provincias",
+    "municipios",
+    "comunas",
+    "lei-14-24",
+    "angola-geo",
+    "cli"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Database",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/cornelioteixeira/angola_geo"
+Documentation = "https://github.com/cornelioteixeira/angola_geo#readme"
+Repository = "https://github.com/cornelioteixeira/angola_geo"
+Issues = "https://github.com/cornelioteixeira/angola_geo/issues"
+
+[project.scripts]
+angola-geo = "angola_geo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["angola_geo*"]
+
+[tool.setuptools.package-data]
+angola_geo = ["data/*.json"]

@@ -1,0 +1,34 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+angola:
+  label: Angola
+  permalink: /blog/tags/angola
+  description: Posts sobre Angola
+
+geo:
+  label: Geo
+  permalink: /blog/tags/geo
+  description: Posts sobre Geolocation
+
+release:
+  label: Release
+  permalink: /blog/tags/release
+  description: Release notes

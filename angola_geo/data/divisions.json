@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "law": "Lei n.º 14/24",
+    "publication_date": "2024-09-05",
+    "effective_date": "2025-01-01",
+    "total_provinces": 21,
+    "total_municipalities": 326,
+    "total_communes": 378,
+    "previous_provinces": 18,
+    "previous_municipalities": 164,
+    "data_version": "0.1.0",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "Lei n.º 14/24, de 5 de Setembro de 2024",
+      "Diário da República Iª Série n.º 171",
+      "Ministry of Territorial Administration (MAT)"
+    ],
+    "notes": "This is an incremental dataset. Municipality and commune names are being added progressively from official sources."
+  },
+  "provinces": [
+    {
+      "id": 1,
+      "name": "Bengo",
+      "capital": "Dande",
+      "municipality_count": 12,
+      "municipalities": [
+        {"name": "Dande", "communes": []},
+        {"name": "Quibaxe", "communes": []},
+        {"name": "Muxaluando", "communes": []},
+        {"name": "Bula Atumba", "communes": []},
+        {"name": "Ambriz", "communes": []},
+        {"name": "Pango Aluquém", "communes": []},
+        {"name": "Barra do Dande", "communes": []},
+        {"name": "Piri", "communes": []},
+        {"name": "Quicunzo", "communes": []},
+        {"name": "Nambuangongo", "communes": []},
+        {"name": "Úcua", "communes": []},
+        {"name": "Panguila", "communes": []}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Benguela",
+      "capital": "Benguela",
+      "municipality_count": 23,
+      "municipalities": []
+    },
+    {
+      "id": 3,
+      "name": "Bié",
+      "capital": "Cuíto",
+      "municipality_count": 19,
+      "municipalities": []
+    },
+    {
+      "id": 4,
+      "name": "Cabinda",
+      "capital": "Cabinda",
+      "municipality_count": 10,
+      "municipalities": []
+    },
+    {
+      "id": 5,
+      "name": "Cuando",
+      "capital": "Mavinga",
+      "municipality_count": 9,
+      "municipalities": [],
+      "notes": "New province created from division of Cuando Cubango"
+    },
+    {
+      "id": 6,
+      "name": "Cuanza Norte",
+      "capital": "N'dalatando",
+      "municipality_count": 17,
+      "municipalities": []
+    },
+    {
+      "id": 7,
+      "name": "Cuanza Sul",
+      "capital": "Sumbe",
+      "municipality_count": 24,
+      "municipalities": []
+    },
+    {
+      "id": 8,
+      "name": "Cubango",
+      "capital": "Menongue",
+      "municipality_count": 11,
+      "municipalities": [],
+      "notes": "New province created from division of Cuando Cubango"
+    },
+    {
+      "id": 9,
+      "name": "Cunene",
+      "capital": "Ondjiva",
+      "municipality_count": 14,
+      "municipalities": []
+    },
+    {
+      "id": 10,
+      "name": "Huambo",
+      "capital": "Huambo",
+      "municipality_count": 17,
+      "municipalities": []
+    },
+    {
+      "id": 11,
+      "name": "Huíla",
+      "capital": "Lubango",
+      "municipality_count": 23,
+      "municipalities": []
+    },
+    {
+      "id": 12,
+      "name": "Icolo e Bengo",
+      "capital": "Catete",
+      "municipality_count": 7,
+      "municipalities": [
+        {"name": "Catete", "communes": []},
+        {"name": "Quiçama", "communes": []},
+        {"name": "Calumbo", "communes": []},
+        {"name": "Cabiri", "communes": []},
+        {"name": "Cabo Ledo", "communes": []},
+        {"name": "Bom Jesus", "communes": []},
+        {"name": "Sequele", "communes": []}
+      ],
+      "notes": "New province created from division of Luanda"
+    },
+    {
+      "id": 13,
+      "name": "Luanda",
+      "capital": "Ingombota",
+      "municipality_count": 16,
+      "municipalities": [
+        {"name": "Belas", "communes": []},
+        {"name": "Cacuaco", "communes": []},
+        {"name": "Camama", "communes": []},
+        {"name": "Cazenga", "communes": []},
+        {"name": "Hoji-ya-Henda", "communes": []},
+        {"name": "Ingombota", "communes": []},
+        {"name": "Maianga", "communes": []},
+        {"name": "Mulenvos", "communes": []},
+        {"name": "Mussulo", "communes": []},
+        {"name": "Quilamba", "communes": []},
+        {"name": "Quilamba Quiaxi", "communes": []},
+        {"name": "Rangel", "communes": []},
+        {"name": "Sambizanga", "communes": []},
+        {"name": "Samba", "communes": []},
+        {"name": "Talatona", "communes": []},
+        {"name": "Viana", "communes": []}
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Lunda Norte",
+      "capital": "Dundo",
+      "municipality_count": 19,
+      "municipalities": []
+    },
+    {
+      "id": 15,
+      "name": "Lunda Sul",
+      "capital": "Saurimo",
+      "municipality_count": 14,
+      "municipalities": []
+    },
+    {
+      "id": 16,
+      "name": "Malanje",
+      "capital": "Malanje",
+      "municipality_count": 27,
+      "municipalities": []
+    },
+    {
+      "id": 17,
+      "name": "Moxico",
+      "capital": "Luena",
+      "municipality_count": 12,
+      "municipalities": []
+    },
+    {
+      "id": 18,
+      "name": "Moxico Leste",
+      "capital": "Cazombo",
+      "municipality_count": 9,
+      "municipalities": [],
+      "notes": "New province created from division of Moxico"
+    },
+    {
+      "id": 19,
+      "name": "Namibe",
+      "capital": "Moçâmedes",
+      "municipality_count": 9,
+      "municipalities": []
+    },
+    {
+      "id": 20,
+      "name": "Uíge",
+      "capital": "Uíge",
+      "municipality_count": 23,
+      "municipalities": []
+    },
+    {
+      "id": 21,
+      "name": "Zaire",
+      "capital": "M'banza-Kongo",
+      "municipality_count": 11,
+      "municipalities": []
+    }
+  ]
+}
