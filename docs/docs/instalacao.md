@@ -41,8 +41,8 @@ Se você deseja contribuir para o projeto ou modificar o código:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/yourusername/geolocation-ao.git
-cd geolocation-ao
+git clone https://github.com/cornelioteixeira/angola_geo.git
+cd angola_geo
 
 # Criar ambiente virtual
 python3 -m venv venv
